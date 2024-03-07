@@ -27,4 +27,4 @@ Bu proje, Entity Framework kullanarak Code First yaklaşımını ve Veri Anotasy
 - Veritabanı bağlantı ayarları ve proje içerisindeki diğer detaylar için `NortwindContext` sınıfını inceleyin.
 - Proje içerisinde kullanılan Data Annotations'ları anlamak için ilgili sınıflara göz atabilirsiniz.
 
-Bu basit README dosyası, projenizi anlamak ve başkalarıyla paylaşmak için kullanılabilir. Gerekirse, projenizle ilgili daha fazla ayrıntı veya özel kullanım talimatları ekleyebilirsiniz.
+
