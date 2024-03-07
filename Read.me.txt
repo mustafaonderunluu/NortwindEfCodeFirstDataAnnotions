@@ -1,0 +1,30 @@
+# Northwind EF Code First Data Annotations
+
+Bu proje, Entity Framework kullanarak Code First yaklaşımını ve Veri Anotasyonları (Data Annotations) kullanarak veritabanı modelini belirleme konseptini içerir. Proje, Northwind veritabanındaki Müşteri ve Sipariş tablolarını temsil etmektedir.
+
+## Proje Yapısı
+
+- **NortwindContext.cs:** Entity Framework ile ilişkilendirilmiş DbContext sınıfını içerir. Müşteri ve Sipariş tabloları için DbSet'leri barındırır.
+
+- **MusteriSiparisDTO.cs:** Müşteri ve Sipariş tablolarının birleştirilmiş DTO (Data Transfer Object) sınıfıdır.
+
+- **Siparis.cs:** "Orders" tablosunu temsil eden sınıftır. Müşteri tablosu ile ilişkilendirilmiş bir dış anahtar içerir.
+
+- **Musteri.cs:** "Customer" tablosunu temsil eden sınıftır. Siparişler ile ilişkilendirilmiştir.
+
+- **Program.cs:** Veritabanından Müşteri verilerini çekip ekrana yazdıran basit bir konsol uygulamasını içerir.
+
+## Kullanım
+
+1. Proje dosyalarını bilgisayarınıza indirin.
+2. Visual Studio veya tercih ettiğiniz bir geliştirme ortamında projeyi açın.
+3. Proje içerisindeki `NortwindContext` sınıfı, veritabanı bağlantı ayarlarınızı içermelidir. Gerekirse `appsettings.json` dosyasını düzenleyin.
+4. Proje içerisindeki `Program.cs` dosyasındaki kodu inceleyin. Bu kod, veritabanından Müşteri verilerini çeker ve ekrana yazdırır.
+5. Projeyi çalıştırarak veritabanını oluşturun ve Müşteri verilerini görüntüleyin.
+
+## Notlar
+
+- Veritabanı bağlantı ayarları ve proje içerisindeki diğer detaylar için `NortwindContext` sınıfını inceleyin.
+- Proje içerisinde kullanılan Data Annotations'ları anlamak için ilgili sınıflara göz atabilirsiniz.
+
+Bu basit README dosyası, projenizi anlamak ve başkalarıyla paylaşmak için kullanılabilir. Gerekirse, projenizle ilgili daha fazla ayrıntı veya özel kullanım talimatları ekleyebilirsiniz.
